@@ -1,0 +1,51 @@
+exervse one:
+  if you attempt to read 01111 = 3
+  if you attempt to read 11011 = page fault doesnt exist
+
+exercies two:
+  12 into 10001
+  
+  VirtualPageNumber Valid RealPage
+  000               0 
+  001               0 
+  010               0 
+  011               0 
+  100               0     01
+  101               0 
+  110               0 
+  111               0 
+  Page  00  01  10  11
+  00    ?   12  ?   ?
+  01    ?   ?   ?   ?
+  10    ?   ?   ?   ?
+  11    ?   ?   ?   ?
+
+exercies 3:
+  LRU
+  VirtualPageNumber Valid RealPage
+  000               0 
+  001               0 
+  010               0 
+  011               0 
+  100               0     01
+  101               0 
+  110               0 
+  111               0 
+  Page  00  01  10  11
+  00    ?   12  ?   ?
+  01    ?   ?   ?   ?
+  10    ?   ?   ?   ?
+  11    ?   ?   ?   ?
+
+  11000, page fault
+  11111, page fault
+  01111, page fault
+  10111, page fault
+  11100, success
+  10011, page fault
+  00110, page fault
+  01110, success
+  00111, success
+  01100, success  
+  11010, success
+  00010, page fault
