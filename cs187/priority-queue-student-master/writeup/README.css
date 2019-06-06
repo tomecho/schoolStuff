@@ -1,0 +1,108 @@
+
+<style>
+  body {
+      font-family: helvetica, arial, sans-serif;
+      font-size: 10pt;
+      width: 650px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-left: 1px dotted gray;
+      border-right: 1px dotted gray;
+  }
+
+  h1 {
+      /*font-family: futura, sans-serif;*/
+    font-family: georgia, "times new roman", serif;
+      /*font-family: verdana, helvetica, sans-serif;*/
+      font-size: 25px;
+  }
+
+  h2 {
+    /*font-family: futura, sans-serif;*/
+      font-family: georgia, "times new roman", serif;
+  /*font-family: verdana, helvetica, sans-serif;*/
+  }
+
+  h3 {
+    font-family: georgia, "times new roman", serif;
+    /*font-family: futura, sans-serif;*/
+      border-bottom: 1px solid lightblue;
+      /*font-family: verdana, helvetica, sans-serif;*/
+      margin-bottom: 5px;
+  }
+
+  h4 {
+    font-family: georgia, "times new roman", serif;
+    /*font-family: futura, sans-serif;*/
+      margin-bottom: 5px;
+  }
+
+  img#tim {
+      float: left;
+      margin-right : 8px;
+  }
+
+  p {
+      text-align: justify;
+  }
+
+  p.comment {
+      font-size: 7px;
+  }
+
+  a:link {
+      color: #0099CC;
+      text-decoration:none;
+  }      /* unvisited link */
+
+  a:visited {
+      color: #0099CC;
+      text-decoration:none;
+  }  /* visited link */
+
+  a:hover {
+      color: #0099CC;
+      text-decoration:none;
+  }  /* mouse over link */
+
+  a:active {
+      color: #0099CC;
+      text-decoration:none;
+  }  /* selected link */
+
+  ul.dates {
+      list-style-type: none;
+  }
+
+  ul.files {
+      list-style-type: none;
+  }  
+
+  img.figure {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  emph {
+      font-style: italic;
+  }
+
+  h4.method {
+      text-decoration: underline;
+      margin-bottom: -5px;
+  }
+
+  ol > li {
+      margin-bottom: 10px;
+  }
+
+  pre {
+      margin-bottom: 0px;
+  }
+
+</style>

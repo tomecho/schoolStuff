@@ -1,0 +1,35 @@
+package structures;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import config.Configuration;
+
+public class MaxQueueTest {
+
+	PriorityQueue<Integer, String> queue;
+	
+	@Before
+	public void setup() {
+		assertNotNull(
+				"It looks like you forgot to set your max queue implementation in the configuration file.",
+				Configuration.getMaxQueue());
+		queue = Configuration.getMaxQueue();
+	}
+
+	@Test (timeout = 100)
+	public void testQueue() {
+		queue.enqueue(100, "Highest priority");
+		queue.enqueue(50, "High priority");
+		queue.enqueue(25, "Medium priority");
+		queue.enqueue(0, "Low priority");
+		assertEquals("Highest priority", queue.dequeue());
+		assertEquals("High priority", queue.dequeue());
+		assertEquals("Medium priority", queue.dequeue());
+		assertEquals("Low priority", queue.dequeue());
+	}
+
+}
